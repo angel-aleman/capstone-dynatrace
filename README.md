@@ -93,7 +93,8 @@ See below for further instructions and expectations of this demo and reach out t
     - Business Analytics & Intelligence
     - etc
 
-    Come prepared with these roles in mind and tailor your presentation to demonstrate how each of these teams day-to-day jobs could be different and drive better business outcomes with the Dynatrace platform. Additionally, be prepared to field live questions from these business units' stakeholders about the Dynatrace platform from their specific lens. 
+    Come prepared with these roles in mind and tailor your presentation to demonstrate how each of these teams day-to-day jobs could be different and drive better business outcomes with the Dynatrace platform. Additionally, be prepared to field live questions from these business units' stakeholders about the Dynatrace platform from their specific lens.
+   `This session will take 1 hour, where 40 mins will be for your demo and 20 mins for the panel.`
 
 1. Presentation requirements: 
 
