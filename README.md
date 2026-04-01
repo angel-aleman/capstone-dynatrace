@@ -76,6 +76,7 @@ See below for further instructions and expectations of this demo and reach out t
     - [Run Time Vulnerabilites](https://docs.dynatrace.com/docs/secure/application-security/vulnerability-analytics)
     - [Kubernetes Security Posture Management](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/deployment/security-posture-management)
     - [Integrate Dynatrace with a Cloud Account](https://docs.dynatrace.com/docs/platform-modules/infrastructure-monitoring/cloud-platform-monitoring)
+    - [AI Observability](https://docs.dynatrace.com/docs/shortlink/dynatrace-for-ai-observability)
 
     Feel free to review the full Dynatrace product documentation on [Getting started with Dynatrace](https://docs.dynatrace.com/docs/get-started) and [Product News](https://www.dynatrace.com/news/blog/) pages and come up with your own integration ideas for you demo.
  
