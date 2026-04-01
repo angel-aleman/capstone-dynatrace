@@ -2,10 +2,8 @@
 
 Thank you for your interest in being a part of the Solutions Engineering team at Dynatrace. As next steps we will ask you to setup and demo an environment of your choosing to the Solutions Engineering team, instrumented by the Dynatrace platform. The goal of this capstone is to showcase your technical skills, the core features of the Dynatrace platform, and your ability to present its value to various business units in one presentation.
 
-See below for further instructions and expectations of this demo and reach out to your hiring manager or kyle.harrington@dynatrace.com with any questions.
+See below for further instructions and expectations of this demo and reach out to your hiring manager with any questions.
     
-If you are planning on using a Dynatrace Managed install for this demo, please see the [Dynatrace Managed Capstone](/dt-managed/dt-managed-capstone.md) for instructions
-
 ---
 
 1. Sign up for a free Dynatrace SaaS trial 
@@ -33,8 +31,8 @@ If you are planning on using a Dynatrace Managed install for this demo, please s
 
     - [Astronomy Shop](https://opentelemetry.io/docs/demo/kubernetes-deployment/)
     - [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo)
-    - [Easy Travel - Standalone](https://community.dynatrace.com/t5/Getting-started/easyTravel-Documentation-and-Download/td-p/181271)
-    - [Easy Travel - Docker](https://github.com/Dynatrace/easyTravel-Docker)
+    - [EasyTrade](https://github.com/Dynatrace/easytrade)
+    
 
     
 1. Configuration requirements:
@@ -43,12 +41,6 @@ If you are planning on using a Dynatrace Managed install for this demo, please s
 
     Required Configurations for your Demo
 
-    Administration     
-    
-    - [Setup Tagging Rules for your environment](https://docs.dynatrace.com/docs/manage/tags-and-metadata/setup/how-to-define-tags)
-    - [Configure a outbound problem notification via Workflows](https://docs.dynatrace.com/docs/analyze-explore-automate/workflows/simple-workflow)
-    - [Create a segment to organize your infrastructure or data](https://docs.dynatrace.com/docs/manage/access-control/management-zones/set-up-management-zones)
-    
 
     Observability
     - [Logs Ingestion](https://docs.dynatrace.com/docs/analyze-explore-automate/logs/lma-log-ingestion)
@@ -56,9 +48,20 @@ If you are planning on using a Dynatrace Managed install for this demo, please s
     - [Trace Ingestion](https://docs.dynatrace.com/docs/analyze-explore-automate/distributed-tracing/ingest-traces)
 
     Real User Monitoring
-     - [Add a browser monitoring check to your web application](https://docs.dynatrace.com/docs/observe/digital-experience/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor)
+    - [Add a browser monitoring check to your web application](https://docs.dynatrace.com/docs/observe/digital-experience/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor)
     - [Enable Session Replay Capture](https://docs.dynatrace.com/docs/platform-modules/digital-experience/session-replay/enable-session-replay-web)
     - [Configure conversion goals for your web application](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals)
+
+    Administration     
+    - [Configure a outbound problem notification via Workflows](https://docs.dynatrace.com/docs/analyze-explore-automate/workflows/simple-workflow)
+    - [Create a segment to organize your infrastructure or data](https://docs.dynatrace.com/docs/manage/access-control/management-zones/set-up-management-zones)
+    - [Dynatrace Intelligence](https://docs.dynatrace.com/docs/discover-dynatrace/platform/davis-ai/copilot/copilot-getting-started)
+
+    Root-cause and analysis 
+   - [Create a notebook to analize a log and their content](https://docs.dynatrace.com/docs/shortlink/notebooks)
+   - [Create a dashborad for analysis of services or infrastructure](https://docs.dynatrace.com/docs/shortlink/dashboards)
+   - [Analyze a problem and their root cause](https://docs.dynatrace.com/docs/shortlink/dynatrace-intelligence-problems-app)
+   - [Use the smartscape to analyze your services interactions](https://docs.dynatrace.com/docs/shortlink/smartscape-app)
    
  
 1. Additional configuration recommendations
@@ -72,14 +75,7 @@ If you are planning on using a Dynatrace Managed install for this demo, please s
     - [OpenTelemetry Ingestion](https://docs.dynatrace.com/docs/ingest-from/opentelemetry)
     - [Run Time Vulnerabilites](https://docs.dynatrace.com/docs/secure/application-security/vulnerability-analytics)
     - [Kubernetes Security Posture Management](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/deployment/security-posture-management)
-    - [Metric Ingestion](https://docs.dynatrace.com/docs/extend-dynatrace/extend-metrics/ingestion-methods/oneagent-metric-api)
-    - [Dynatrace Co-Pilot](https://docs.dynatrace.com/docs/discover-dynatrace/platform/davis-ai/copilot/copilot-getting-started)
-    - [Add a Synthetic check to you web app via a *Private* active gate](https://docs.dynatrace.com/docs/platform-modules/digital-experience/synthetic-monitoring/private-synthetic-locations/create-a-private-synthetic-location)
-    - [Use the Events API to add Event data to a Dynatrace entity](https://docs.dynatrace.com/docs/dynatrace-api/environment-api/events-v2/post-event)
     - [Integrate Dynatrace with a Cloud Account](https://docs.dynatrace.com/docs/platform-modules/infrastructure-monitoring/cloud-platform-monitoring)
-    - [Leverage the Dynatrace Terraform Provider](https://registry.terraform.io/providers/dynatrace-oss/dynatrace/latest)
-    - [Extend OneAgent to instrument a non-native language through the OneAgent SDK](https://docs.dynatrace.com/docs/extend-dynatrace/extend-tracing/oneagent-sdk)
-    - [Instrument a Python application with OneAgent](https://github.com/dynatrace-oss/OneAgent-SDK-Python-AutoInstrumentation)
 
     Feel free to review the full Dynatrace product documentation on [Getting started with Dynatrace](https://docs.dynatrace.com/docs/get-started) and [Product News](https://www.dynatrace.com/news/blog/) pages and come up with your own integration ideas for you demo.
  
@@ -111,10 +107,11 @@ If you are planning on using a Dynatrace Managed install for this demo, please s
     - [Services App](https://www.dynatrace.com/hub/detail/services-1/)
     - [Kubernetes App](https://www.dynatrace.com/hub/detail/kubernetes-1) (if you leveraged Kubernetes)
     - [Dynatrace Smartscape](https://docs.dynatrace.com/docs/platform/smartscape)
+    - [Dashboards](https://www.dynatrace.com/hub/detail/dashboards/)
+    - [Notebooks](https://www.dynatrace.com/hub/detail/notebooks/)
 
     Features 
     - [Dynatrace Query Language (DQL)](https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-query-language)
-    - [The configured Tagging Rules](https://docs.dynatrace.com/docs/manage/tags-and-metadata/setup/how-to-define-tags)
     - [The configured outbound problem notification via Workflows](https://docs.dynatrace.com/docs/analyze-explore-automate/workflows/simple-workflow)
     - [The configured segment(s) to organize your infrastructure or data](https://docs.dynatrace.com/docs/manage/access-control/management-zones/set-up-management-zones)
     - [The configured browser monitoring check to your web application](https://docs.dynatrace.com/docs/observe/digital-experience/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor)
@@ -146,9 +143,5 @@ If you are planning on using a Dynatrace Managed install for this demo, please s
     - [Dynatrace Playground SaaS Environment](https://wkf10640.apps.dynatrace.com/)
     - [Dynatrace Blog](https://www.dynatrace.com/news/blog/)
 
-   
-    Additional Notes:
-    - Please Ensure that you have enabled [Real User Monitoring (RUM)](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/initial-setup/configure-dynatrace-real-user-monitoring-to-capture-xhr-actions) for you web app
-    - If you use the standalone version of Easy Travel you may need to [configure custom service detection](https://docs.dynatrace.com/docs/platform-modules/applications-and-microservices/services/service-detection-and-naming/service-types/custom-services)
-    - Please make sure you disable injection the launcher process / docker container for easy travel. [See related documentation here](https://community.dynatrace.com/t5/Getting-started/easyTravel-Documentation-and-Download/td-p/181271)
+
      - Have fun!
