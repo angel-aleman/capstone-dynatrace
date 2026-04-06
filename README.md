@@ -69,7 +69,7 @@ See below for further instructions and expectations of this demo and reach out t
     These are not required, but it is strongly encouraged that you configure some of these. Make sure you call these out during your demo if you set them up!
 
     - [BizEvents](https://docs.dynatrace.com/docs/shortlink/bo-business-events-capturing)
-    - [Log Events]([https://docs.dynatrace.com/docs/analyze-explore-automate/logs/lma-analysis/lma-log-events](https://docs.dynatrace.com/docs/dynatrace-intelligence/use-cases/create-alert-in-logs)) 
+    - [Log Events](https://docs.dynatrace.com/docs/dynatrace-intelligence/use-cases/create-alert-in-logs) 
     - [Live Debugger](https://docs.dynatrace.com/docs/observe/applications-and-microservices/developer-observability/offering-capabilities)
     - [RUM Session Properties](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties)
     - [OpenTelemetry Ingestion](https://docs.dynatrace.com/docs/ingest-from/opentelemetry)
