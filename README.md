@@ -9,30 +9,27 @@ See below for further instructions and expectations of this demo and reach out t
 1. Sign up for a free Dynatrace SaaS trial 
     - https://www.dynatrace.com/trial/
 
-1. Deploy OneAgent to your environment
-    - [Linux](https://docs.dynatrace.com/docs/setup-and-configuration/dynatrace-oneagent/installation-and-operation/linux/installation/install-oneagent-on-linux)
-    - [Windows](https://docs.dynatrace.com/docs/setup-and-configuration/dynatrace-oneagent/installation-and-operation/windows/installation/install-oneagent-on-windows)
-    - [Kubernetes / OpenShift - Helm](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/deployment/full-stack-observability)
-    - [Kubernetes / OpenShift - Manifest Deployment](https://docs.dynatrace.com/docs/shortlink/installation-k8s-cloud-native-fs#manifest)
+1. Ingest data to your environment from the source you want:
+    - [Ingest data](https://docs.dynatrace.com/docs/shortlink/ingest-data-from)
+
 
 1. Deploy a Web Application
     
-    Setup a demo application into your environment.
+    Setup a demo application into your environment. See below for a list of sample apps you can potentially leverage and will meet the requirements. 
 
-    Requirements of the demo application 
+    - [Astronomy Shop](https://opentelemetry.io/docs/demo/kubernetes-deployment/)
+    - [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo)
+    - [EasyTrade](https://github.com/Dynatrace/easytrade)
+    
+    You can choose any custom application you have worked with in the past or built for this demo. 
+    Requirements of the demo application, in case you want to use a different.
+   
     - Front end web server (for browser RUM injection) 
     - Code level calls more advance than a "hello world" or health check 
       -  Check [Dynatrace's list of supported technologies](https://docs.dynatrace.com/docs/setup-and-configuration/technology-support) for technology compatibility
     - Application logs are generated and available (stdout by default)
     - A Database component 
     - The application must be capable of generating errors/ crashes/ outages
-
-    Any application that meets the requirements section above will work. You can choose any custom application you have worked with in the past or built for this demo. See below for a list of sample apps you can potentially leverage and will meet the requirements. 
-
-    - [Astronomy Shop](https://opentelemetry.io/docs/demo/kubernetes-deployment/)
-    - [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo)
-    - [EasyTrade](https://github.com/Dynatrace/easytrade)
-    
 
     
 1. Configuration requirements:
@@ -55,35 +52,19 @@ See below for further instructions and expectations of this demo and reach out t
     Administration     
     - [Configure a outbound problem notification via Workflows](https://docs.dynatrace.com/docs/analyze-explore-automate/workflows/simple-workflow)
     - [Create a segment to organize your infrastructure or data](https://docs.dynatrace.com/docs/shortlink/segments)
-    - [Dynatrace Intelligence](https://docs.dynatrace.com/docs/discover-dynatrace/platform/davis-ai/copilot/copilot-getting-started)
+    - [Enable Dynatrace Intelligence](https://docs.dynatrace.com/docs/discover-dynatrace/platform/davis-ai/copilot/copilot-getting-started)
 
     Root-cause and analysis 
    - [Create a notebook to analize a log and their content](https://docs.dynatrace.com/docs/shortlink/notebooks)
    - [Create a dashborad for analysis of services or infrastructure](https://docs.dynatrace.com/docs/shortlink/dashboards)
    - [Analyze a problem and their root cause](https://docs.dynatrace.com/docs/shortlink/dynatrace-intelligence-problems-app)
    - [Use the smartscape to analyze your services interactions](https://docs.dynatrace.com/docs/shortlink/smartscape-app)
-   
- 
-1. Additional configuration recommendations
-    
-    These are not required, but it is strongly encouraged that you configure some of these. Make sure you call these out during your demo if you set them up!
 
-    - [BizEvents](https://docs.dynatrace.com/docs/shortlink/bo-business-events-capturing)
-    - [Log Events](https://docs.dynatrace.com/docs/dynatrace-intelligence/use-cases/create-alert-in-logs) 
-    - [Live Debugger](https://docs.dynatrace.com/docs/observe/applications-and-microservices/developer-observability/offering-capabilities)
-    - [RUM Session Properties](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties)
-    - [OpenTelemetry Ingestion](https://docs.dynatrace.com/docs/ingest-from/opentelemetry)
-    - [Run Time Vulnerabilites](https://docs.dynatrace.com/docs/secure/application-security/vulnerability-analytics)
-    - [Kubernetes Security Posture Management](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/deployment/security-posture-management)
-    - [Integrate Dynatrace with a Cloud Account](https://docs.dynatrace.com/docs/platform-modules/infrastructure-monitoring/cloud-platform-monitoring)
-    - [AI Observability](https://docs.dynatrace.com/docs/shortlink/dynatrace-for-ai-observability)
-
-    Feel free to review the full Dynatrace product documentation on [Getting started with Dynatrace](https://docs.dynatrace.com/docs/get-started) and [Product News](https://www.dynatrace.com/news/blog/) pages and come up with your own integration ideas for you demo.
  
 
 1. Presentation Overview
 
-    Your presentation should highlight your technical aptitude by demonstrating the core concepts and feature functionality of the tool. However, the primary focus of your presentation will be to demonstrate the value of the data provided by Dynatrace to multiple business units, teams and stakeholders for any given organization. For the purposes of this demo the Dynatrace Solutions Engineering team will be role playing as stake holders of a prospect in the roles of:  
+    The primary focus of your presentation will be to demonstrate the value of the data provided by Dynatrace to multiple business units, teams and stakeholders for any given organization. For the purposes of this demo the Dynatrace Solutions Engineering team will be role playing as stake holders of a prospect in the roles of:  
     
     - C Suite Leadership 
     - Technology Operations
@@ -96,39 +77,8 @@ See below for further instructions and expectations of this demo and reach out t
 
     Come prepared with these roles in mind and tailor your presentation to demonstrate how each of these teams day-to-day jobs could be different and drive better business outcomes with the Dynatrace platform. Additionally, be prepared to field live questions from these business units' stakeholders about the Dynatrace platform from their specific lens.
    `This session will take 1 hour, where 40 mins will be for your demo and 20 mins for the panel.`
-
-1. Presentation requirements: 
-
-    Below is a list of the required features, applications and/or functionality of the Dynatrace platform which need to be incorporated into your demo. 
-
-    Dynatrace Apps 
-    - [Problems App](https://www.dynatrace.com/hub/detail/problems/)
-    - [Infrastructure and Operations](https://www.dynatrace.com/hub/detail/infrastructure-operations)
-    - [Logs App](https://www.dynatrace.com/hub/detail/logs/) 
-    - [Traces app](https://www.dynatrace.com/hub/detail/distributed-tracing)
-    - [Services App](https://www.dynatrace.com/hub/detail/services-1/)
-    - [Kubernetes App](https://www.dynatrace.com/hub/detail/kubernetes-1) (if you leveraged Kubernetes)
-    - [Dynatrace Smartscape](https://docs.dynatrace.com/docs/shortlink/smartscape-app)
-    - [Dashboards](https://www.dynatrace.com/hub/detail/dashboards/)
-    - [Notebooks](https://www.dynatrace.com/hub/detail/notebooks/)
-
-    Features 
-    - [Dynatrace Query Language (DQL)](https://docs.dynatrace.com/docs/discover-dynatrace/references/dynatrace-query-language)
-    - [The configured outbound problem notification via Workflows](https://docs.dynatrace.com/docs/analyze-explore-automate/workflows/simple-workflow)
-    - [The configured segment(s) to organize your infrastructure or data](https://docs.dynatrace.com/docs/manage/access-control/management-zones/set-up-management-zones)
-    - [The configured browser monitoring check to your web application](https://docs.dynatrace.com/docs/observe/digital-experience/synthetic-monitoring/browser-monitors/create-a-single-url-browser-monitor)
-    - [The configured Session Replay Sessions](https://docs.dynatrace.com/docs/platform-modules/digital-experience/session-replay/enable-session-replay-web)
-    - [The configured conversion goals for your web application](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/analyze-and-use/define-conversion-goals)
     
     Demo Expectations
-    - All of the above "Dynatrace apps" and "features" are incorporated into you demo
-    - Present a problem card generated in your environment and the related application, user, service and business impact 
-    - Build a dashboard that showcases your environment and it's data via the [Dashboard app](https://www.dynatrace.com/hub/detail/dashboards/)
-    - Walk through the application service flow you've instrumented with one agent from front end (Real users) to the backend (database calls)
-    - Highlight the value of the data provided by the Dynatrace platform to your audience
-    - Incorporate how you would benefit from the Dynatrace platform & data you are presenting in your current or previous role(s) 
-
-    Tips for success:
 
      The over arching theme of your presentation should hinge of the business value the above requirements will provide to your audience. Focus on business value  highlighting how the Dynatrace platform can drive revenue, reduce costs, or improve efficiency.
 
@@ -137,13 +87,32 @@ See below for further instructions and expectations of this demo and reach out t
     - Articulate the practical application of the platform. Explain how the technical features solve real-world problems for your audience.
     - Be prepared for questions & interruptions from you audience
     - Try to maintain engagement. Keep the audience engaged with interaction and encourage questions throughout the demo.
+    - Highlight the value of the data provided by the Dynatrace platform to your audience
+    - Incorporate how you would benefit from the Dynatrace platform & data you are presenting in your current or previous role(s) 
 
-        
-    If you need additional ideas for demos, talking points or general knowledge take a look at:
-    - [Dynatrace YouTube Channel](https://www.youtube.com/@dynatrace)
-    - [Dynatrace LinkedIn](https://www.linkedin.com/company/dynatrace/posts/?feedView=all)
-    - [Dynatrace Playground SaaS Environment](https://wkf10640.apps.dynatrace.com/)
-    - [Dynatrace Blog](https://www.dynatrace.com/news/blog/)
+  
+Additional configuration recommendations
+    
+These are not required, but it is strongly encouraged that you configure some of these. Make sure you call these out during your demo if you set them up!
+
+- [BizEvents](https://docs.dynatrace.com/docs/shortlink/bo-business-events-capturing)
+- [Log Events](https://docs.dynatrace.com/docs/dynatrace-intelligence/use-cases/create-alert-in-logs) 
+- [Live Debugger](https://docs.dynatrace.com/docs/observe/applications-and-microservices/developer-observability/offering-capabilities)
+- [RUM Session Properties](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties)
+- [OpenTelemetry Ingestion](https://docs.dynatrace.com/docs/ingest-from/opentelemetry)
+- [Run Time Vulnerabilites](https://docs.dynatrace.com/docs/secure/application-security/vulnerability-analytics)
+- [Kubernetes Security Posture Management](https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/deployment/security-posture-management)
+- [Integrate Dynatrace with a Cloud Account](https://docs.dynatrace.com/docs/platform-modules/infrastructure-monitoring/cloud-platform-monitoring)
+- [AI Observability](https://docs.dynatrace.com/docs/shortlink/dynatrace-for-ai-observability)
+
+Feel free to review the full Dynatrace product documentation on [Getting started with Dynatrace](https://docs.dynatrace.com/docs/get-started) and [Product News](https://www.dynatrace.com/news/blog/) pages and come up with your own integration ideas for you demo.
+
+If you need additional ideas for demos, talking points or general knowledge take a look at:
+
+- [Dynatrace YouTube Channel](https://www.youtube.com/@dynatrace)
+- [Dynatrace LinkedIn](https://www.linkedin.com/company/dynatrace/posts/?feedView=all)
+- [Dynatrace Playground SaaS Environment](https://wkf10640.apps.dynatrace.com/)
+- [Dynatrace Blog](https://www.dynatrace.com/news/blog/)
 
 
-     - Have fun!
+- Have fun!   
