@@ -54,7 +54,7 @@ See below for further instructions and expectations of this demo and reach out t
 
     Administration     
     - [Configure a outbound problem notification via Workflows](https://docs.dynatrace.com/docs/analyze-explore-automate/workflows/simple-workflow)
-    - [Create a segment to organize your infrastructure or data](https://docs.dynatrace.com/docs/manage/access-control/management-zones/set-up-management-zones)
+    - [Create a segment to organize your infrastructure or data](https://docs.dynatrace.com/docs/shortlink/segments)
     - [Dynatrace Intelligence](https://docs.dynatrace.com/docs/discover-dynatrace/platform/davis-ai/copilot/copilot-getting-started)
 
     Root-cause and analysis 
@@ -68,8 +68,8 @@ See below for further instructions and expectations of this demo and reach out t
     
     These are not required, but it is strongly encouraged that you configure some of these. Make sure you call these out during your demo if you set them up!
 
-    - [BizEvents](https://docs.dynatrace.com/docs/platform-modules/business-analytics/ba-events-capturing)
-    - [Log Events](https://docs.dynatrace.com/docs/analyze-explore-automate/logs/lma-analysis/lma-log-events) 
+    - [BizEvents](https://docs.dynatrace.com/docs/shortlink/bo-business-events-capturing)
+    - [Log Events]([https://docs.dynatrace.com/docs/analyze-explore-automate/logs/lma-analysis/lma-log-events](https://docs.dynatrace.com/docs/dynatrace-intelligence/use-cases/create-alert-in-logs)) 
     - [Live Debugger](https://docs.dynatrace.com/docs/observe/applications-and-microservices/developer-observability/offering-capabilities)
     - [RUM Session Properties](https://docs.dynatrace.com/docs/platform-modules/digital-experience/web-applications/additional-configuration/define-user-action-and-session-properties)
     - [OpenTelemetry Ingestion](https://docs.dynatrace.com/docs/ingest-from/opentelemetry)
@@ -108,7 +108,7 @@ See below for further instructions and expectations of this demo and reach out t
     - [Traces app](https://www.dynatrace.com/hub/detail/distributed-tracing)
     - [Services App](https://www.dynatrace.com/hub/detail/services-1/)
     - [Kubernetes App](https://www.dynatrace.com/hub/detail/kubernetes-1) (if you leveraged Kubernetes)
-    - [Dynatrace Smartscape](https://docs.dynatrace.com/docs/platform/smartscape)
+    - [Dynatrace Smartscape](https://docs.dynatrace.com/docs/shortlink/smartscape-app)
     - [Dashboards](https://www.dynatrace.com/hub/detail/dashboards/)
     - [Notebooks](https://www.dynatrace.com/hub/detail/notebooks/)
 
